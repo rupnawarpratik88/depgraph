@@ -20,7 +20,8 @@ function formatDownloads(n) {
 }
 
 export default function PackagePage({ params }) {
-  const packageName = decodeURIComponent(params.name)
+  const resolvedParams = use(params)
+  const packageName = decodeURIComponent(resolvedParams.name)
   const [data, setData]     = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError]   = useState(null)
