@@ -16,7 +16,7 @@ import { NextResponse } from 'next/server'
  * - Graph nodes + edges for visualisation
  */
 export async function GET(request, { params }) {
-  const packageName = params.name
+  const { name: packageName } = await params
 
   try {
     await verifyConnectivity()
