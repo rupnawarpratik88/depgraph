@@ -2,7 +2,7 @@
 
 > Explore transitive CVE exposure across NPM package dependency chains, powered by a graph database.
 
-**[Live Demo →](https://depgraph.vercel.app)** &nbsp;|&nbsp; **[Screen Recording →](#)**
+**[Live Demo →](https://depgraph-three.vercel.app)** &nbsp;|&nbsp; **[Screen Recording →](#)**
 
 ![DepGraph Screenshot](docs/screenshot-home.png)
 
